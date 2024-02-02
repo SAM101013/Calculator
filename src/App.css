@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('./assets/moon1.jpg'); /* Add the background image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.calculator {
+  background-color: #d0c1c760;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.694);
+  overflow: hidden;
+  width: 300px;
+}
+
+.input-screen {
+  background-color: #251920a9;
+  color: #fafeff;
+  padding: 10px;
+  text-align: right;
+}
+
+.input {
+  font-size: 2.5em;
+}
+
+.answer {
+  font-size: 2em;
+  margin-top: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgb(38, 224, 162);
+}
+
+button {
+  background-color: #3aea1f;
+  border: none;
+  color: #1cb4da;
+  font-size: 1.2em;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #d21866d7;
+  }
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.centre {
+  display:flex;
+  color: #d80249;
+  
+}
+
+.red{
+  background-color: #cb064b;
+}
+
+.blue{
+  background-color: aqua;
+}
+
+.toggle {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #0eb392;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ccdf25;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button:hover {
+  border-color: #000000;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #ccf212;
+  }
+} */
+

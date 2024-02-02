@@ -1,0 +1,27 @@
+.image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-row {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    width: 100vh;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .text-area {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
